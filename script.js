@@ -38,6 +38,7 @@ function addDecimal() {
 }
 
 function useOperator(operator) {
+  // Convert value to a number
   const currentValue = Number(calculatorDisplay.textContent);
   // Prevent multiple operators
   if (operatorValue && awaitingNextValue) {
@@ -67,6 +68,7 @@ function resetAll() {
 
 // Event listeners (numbers, operators, decimal and clear buttons)
 inputBtns.forEach((inputBtn) => {
+  // for number buttons as I haven't given them a class
   if (inputBtn.classList.length === 0) {
     inputBtn.addEventListener("click", () => sendNumberValue(inputBtn.value));
   } else if (inputBtn.classList.contains("operator")) {

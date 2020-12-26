@@ -15,9 +15,10 @@ body {
   background: white;
   width: 400px;
   border-radius: 12px;
-  box-shadow: 0 5px 30px -5px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 20px 30px -10px rgba(0, 0, 0, 0.5);
 }
 
+/* Display */
 .calculator-display {
   background: black;
   color: white;
@@ -28,17 +29,17 @@ body {
   border-radius: 10px 10px 0 0;
 }
 
-/* Display */
 .calculator-display h1 {
   margin: 0;
   padding: 25px;
   font-size: 45px;
   font-family: "Lucida Console", sans-serif;
   font-weight: 100;
+  /* add a scroll bar */
   overflow-x: auto;
 }
 
-/* Custom scrollbar */
+/* Custom scrollbar to make sure it looks good on windows */
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -73,10 +74,12 @@ button {
   background: rgb(212, 212, 212);
 }
 
+/* Change brightness to make it obvious when hovering over a button */
 button:hover {
   filter: brightness(110%);
 }
 
+/* Move button down 1px when clicked */
 button:active {
   transform: translateY(1px);
 }
@@ -96,6 +99,7 @@ button:focus {
   color: white;
 }
 
+/* Change brightness to make it obvious when hovering over a button */
 .clear:hover {
   filter: brightness(90%);
 }

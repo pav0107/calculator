@@ -14,17 +14,20 @@ body {
   background: linear-gradient(to right, #ff5f6d, #ffc371);
 }
 
-h1 {
+.heading {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.heading h1 {
   margin: 20px;
   font-size: 100px;
-  font-family: "Roboto", sans-serif;
   font-style: italic;
   font-weight: 900;
 }
-h2 {
+.heading h2 {
   margin: 0;
   font-size: 30px;
-  font-family: "Roboto", sans-serif;
 }
 
 .calculator {

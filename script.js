@@ -1,4 +1,4 @@
-const calculatorDisplay = document.querySelector("h1");
+const calculatorDisplay = document.getElementById("calculator-display");
 const inputBtns = document.querySelectorAll("button");
 const clearBtn = document.getElementById("clear-btn");
 

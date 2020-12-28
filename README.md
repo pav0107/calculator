@@ -1,6 +1,11 @@
 This is a simple calculator app.
 
-As well as creating the logic for calculations, there were some other bits of logic to set up too, such as making sure the decimal button wouldn't log if pressed consecutively and being able to chain calculations together.
+I coding logic for the following:
+
+- Basic calculations
+- Making sure successive decimal points can't be added.
+- Calculations an be chained rather than just a simple calculation using one operator (addition, subtraction, multiplication or division).
+- If operator buttons are pressed in succession, only the last one pressed is used in the calculation.
 
 It uses Flexbox and CSS Grid for layout.
 

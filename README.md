@@ -1,13 +1,15 @@
+# Calculator
+
 This is a simple calculator app.
 
-I coding logic for the following:
+I coded logic for the following:
 
-- Basic calculations
+- Basic calculations.
 - Making sure successive decimal points can't be added.
-- Calculations an be chained rather than just a simple calculation using one operator (addition, subtraction, multiplication or division).
-- If operator buttons are pressed in succession, only the last one pressed is used in the calculation.
+- Chaining calculations, rather than just a simple calculation using one operator (addition, subtraction, multiplication or division).
+- Making sure only the last operator button pressed is used in the calculation, if operator buttons are pressed in succession.
 
-It uses Flexbox and CSS Grid for layout.
+I used Flexbox and CSS Grid for the layout.
 
 Gradient from:
 https://uigradients.com/
